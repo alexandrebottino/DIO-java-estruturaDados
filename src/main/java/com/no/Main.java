@@ -1,4 +1,4 @@
-package com.projetono;
+package com.no;
 
 public class Main {
 
