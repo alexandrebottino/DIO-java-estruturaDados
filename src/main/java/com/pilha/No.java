@@ -5,13 +5,14 @@ public class No {
     private int dado;
     private No refNo = null;
 
+    public No() {
+    }
 
-    public No(int dado) {
+    public No(Object object) {
+        this.refNo = null;
         this.dado = dado;
     }
 
-    public No() {
-    }
 
     public int getDado() {
         return dado;
